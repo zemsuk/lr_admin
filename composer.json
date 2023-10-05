@@ -1,0 +1,25 @@
+{
+    "name": "zems/lr_admin",
+    "description": "Laravel admin package by zems team",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zems\\LrAdmin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zems",
+            "email": "support@zems.uk",
+            "homepage": "https://zems.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": ["Zems\\LrAdmin\\ZemsAdminProvider"]
+        }
+    }
+}

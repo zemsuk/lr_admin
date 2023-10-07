@@ -13,13 +13,7 @@ class ZemsAdmin extends Controller
 {
     public $method;
     public $request;
-    function __construct(Request $request)
-    {
-        // $this->method = $method;
-        $this->method = $request->method();
-        $this->request = $request;
         
-    }    
     public function index($data = false)
     {
         return "Admin demo";

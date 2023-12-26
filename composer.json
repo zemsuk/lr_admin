@@ -16,7 +16,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "zems/zems_auth": "v1.0"
+    },
     "extra": {
         "laravel": {
             "providers": ["Zems\\LrAdmin\\ZemsAdminProvider"]

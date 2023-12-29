@@ -1,6 +1,6 @@
 {
     "name": "zems/lr_admin",
-    "description": "Laravel admin package by zems team",
+    "description": "Laravel admin package by zems team v1.0.2",
     "type": "library",
     "license": "MIT",
     "autoload": {

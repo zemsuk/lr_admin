@@ -17,7 +17,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "zems/zems_auth": "v1.0.1"
+        "zems/lr_auth": "v1.0.2"
     },
     "extra": {
         "laravel": {
